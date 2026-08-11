@@ -1,0 +1,34 @@
+# Environment and secrets
+.env
+.env.*
+
+# Logs
+*.log
+
+# IDE
+.vscode/
+.idea/
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Temporary files
+*.tmp
+*.temp
+
+# Backup files
+*.bak
+
+# Local database/config backups
+backup_database.php
+
+# Test files
+test_db.php
+test_payments.php
+check_db.php
+
+# Migration/helper scripts - keep local unless intentionally documented
+migrate_payments.php
+verify_bonus_calculations.php
+sync_stock.php
